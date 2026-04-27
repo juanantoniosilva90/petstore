@@ -1,0 +1,29 @@
+{
+  "name": "Pet controller context loads",
+  "app": "petstore",
+  "language": {
+    "name": "java",
+    "version": "17.0.12+8-LTS-286",
+    "engine": "Java HotSpot(TM) 64-Bit Server VM"
+  },
+  "client": {
+    "name": "appmap-java",
+    "url": "https://github.com/appland/appmap-java"
+  },
+  "recorder": {
+    "name": "junit",
+    "type": "tests"
+  },
+  "recording": {
+    "defined_class": "com.example.petstore.PetControllerTest",
+    "method_id": "contextLoads"
+  },
+  "source_location": "com/example/petstore/PetControllerTest.java:11",
+  "frameworks": [
+    {
+      "name": "JUnit",
+      "version": "5"
+    }
+  ],
+  "test_status": "succeeded"
+}

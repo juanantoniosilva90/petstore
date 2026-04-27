@@ -1,0 +1,32 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "contextLoads",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/example/petstore/PetControllerTest.java:11"
+                  }
+                ],
+                "name": "PetControllerTest",
+                "type": "class"
+              }
+            ],
+            "name": "petstore",
+            "type": "package"
+          }
+        ],
+        "name": "example",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]
