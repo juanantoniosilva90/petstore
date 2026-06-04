@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pet.portafolio.controller.PetControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-04T06:06:03" hostname="SILVA" time="0.491">
+  <properties/>
+  <testcase name="getPetByIdShouldReturn200()" classname="com.pet.portafolio.controller.PetControllerTest" time="0.405"/>
+  <testcase name="createPetShouldReturn201()" classname="com.pet.portafolio.controller.PetControllerTest" time="0.083"/>
+  <system-out><![CDATA[2026-06-04T00:06:02.214-06:00  INFO 37028 --- [portafolio] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pet.portafolio.controller.PetControllerTest]: PetControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-04T00:06:02.248-06:00  INFO 37028 --- [portafolio] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pet.portafolio.PortafolioApplication for test class com.pet.portafolio.controller.PetControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.7)
+
+2026-06-04T00:06:02.281-06:00  INFO 37028 --- [portafolio] [    Test worker] c.p.p.controller.PetControllerTest       : Starting PetControllerTest using Java 17.0.12 with PID 37028 (started by jasil in C:\Users\jasil\OneDrive\Documentos\pet)
+2026-06-04T00:06:02.281-06:00  INFO 37028 --- [portafolio] [    Test worker] c.p.p.controller.PetControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T00:06:03.126-06:00  INFO 37028 --- [portafolio] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-06-04T00:06:03.127-06:00  INFO 37028 --- [portafolio] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-06-04T00:06:03.131-06:00  INFO 37028 --- [portafolio] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-06-04T00:06:03.152-06:00  INFO 37028 --- [portafolio] [    Test worker] c.p.p.controller.PetControllerTest       : Started PetControllerTest in 0.899 seconds (process running for 8.879)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

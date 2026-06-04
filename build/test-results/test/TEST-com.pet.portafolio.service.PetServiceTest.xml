@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pet.portafolio.service.PetServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-04T06:06:03" hostname="SILVA" time="0.264">
+  <properties/>
+  <testcase name="createPetShouldDelegateToPetstoreAndReturnResponse()" classname="com.pet.portafolio.service.PetServiceTest" time="0.259"/>
+  <testcase name="getPetByIdShouldReturnPetFromExternalApi()" classname="com.pet.portafolio.service.PetServiceTest" time="0.005"/>
+  <system-out><![CDATA[2026-06-04T00:06:03.923-06:00  INFO 37028 --- [portafolio] [    Test worker] com.pet.portafolio.service.PetService    : Creando mascota en Petstore: id=1, name=Rex, status=sold
+2026-06-04T00:06:03.925-06:00  INFO 37028 --- [portafolio] [    Test worker] com.pet.portafolio.service.PetService    : Mascota creada en Petstore: transactionId=4c7f6e3e-2179-4f07-8679-e03c4c6e9c2a, dateCreated=2026-06-04T00:06:03.925178, status=sold, name=Rex
+2026-06-04T00:06:03.950-06:00  INFO 37028 --- [portafolio] [    Test worker] com.pet.portafolio.service.PetService    : Obteniendo mascota con id: 1
+2026-06-04T00:06:03.951-06:00  INFO 37028 --- [portafolio] [    Test worker] com.pet.portafolio.service.PetService    : Mascota obtenida de Petstore: id=1, name=Fido, status=available
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
